@@ -22,7 +22,7 @@ jobs:
       with:
         deliverables: app.yaml 
         service: app-engine2
-        version: v11
+        version: v12
         project_id: ${{ secrets.GCP_PROJECT }}
         credentials: ${{ secrets.GCP_CREDENTIALS }}
 
