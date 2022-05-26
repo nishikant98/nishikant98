@@ -1,0 +1,5 @@
+cron:
+- description: start flax-app service 
+  url: flax-app
+  schedule: every day 15:45 
+  timezone: America/Chicago
