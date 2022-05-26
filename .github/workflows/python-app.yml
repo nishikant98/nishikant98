@@ -21,7 +21,8 @@ jobs:
       uses: google-github-actions/deploy-appengine@v0.2.0
       with:
         deliverables: app.yaml 
-        version: new1
+        service: flex-app
+        version: new12
         project_id: ${{ secrets.GCP_PROJECT }}
         credentials: ${{ secrets.GCP_CREDENTIALS }}
 
