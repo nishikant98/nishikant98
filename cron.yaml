@@ -1,5 +1,5 @@
 cron:
 - description: start flax-app service 
-  url: flax-app
-  schedule: every day 15:58 
+  url: https://flex-app-dot-testing-351110.uc.r.appspot.com/
+  schedule: every day 16:11 
   timezone: America/Chicago
